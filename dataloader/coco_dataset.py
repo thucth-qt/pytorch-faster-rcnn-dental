@@ -54,7 +54,8 @@ class coco(Dataset):
         """
         # Example image path for index=119993:
         #   images/train2014/COCO_train2014_000000119993.jpg
-        file_name = (str(index).zfill(12) + '.jpg')
+        # file_name = (str(index).zfill(12) + '.jpg')
+        file_name = "Frame_"+str(index)
         image_path = os.path.join(self._root_dir, self._data_name, file_name)
         assert os.path.exists(image_path), 'Path does not exist: {}'.format(image_path)
         return image_path
@@ -62,7 +63,7 @@ class coco(Dataset):
     def __getitem__(self, idx):
         a = self.anno['images'][idx]
         image_idx = a['id']
-        img_path = os.path.join(self._root_dir, self._data_name, self._image_path_from_index(image_idx))
+        img_path = os.path.join(self._root_dir, self._data_name, a['file_name'])
         image = Image.open(img_path)
 
         width = a['width']

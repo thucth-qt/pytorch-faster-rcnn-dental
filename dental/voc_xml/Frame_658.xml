@@ -1,0 +1,85 @@
+<annotation>
+  <folder>VOC2007</folder>
+  <filename>Frame_658.JPG</filename>
+  <source>
+    <database>Coco database</database>
+  </source>
+  <size>
+    <width>1920</width>
+    <height>1080</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>Central Incisor</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>905</xmin>
+      <ymin>337</ymin>
+      <xmax>1440</xmax>
+      <ymax>912</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>Central Incisor</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>393</xmin>
+      <ymin>357</ymin>
+      <xmax>905</xmax>
+      <ymax>894</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>Lateral Incisor</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>1440</xmin>
+      <ymin>344</ymin>
+      <xmax>1800</xmax>
+      <ymax>883</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>Lateral Incisor</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>90</xmin>
+      <ymin>378</ymin>
+      <xmax>443</xmax>
+      <ymax>851</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>Canine</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>1802</xmin>
+      <ymin>443</ymin>
+      <xmax>1919</xmax>
+      <ymax>867</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>Canine</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>0</xmin>
+      <ymin>461</ymin>
+      <xmax>88</xmax>
+      <ymax>926</ymax>
+    </bndbox>
+  </object>
+</annotation>

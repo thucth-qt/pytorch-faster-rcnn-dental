@@ -61,7 +61,7 @@ def xml_transform(root, classes):
         node_root = Element('annotation')
         node_folder = SubElement(node_root, 'folder')
         node_folder.text = 'VOC2007'
-        img_name = img_id + '.jpg'
+        img_name = os.path.basename(imgpath)
     
         node_filename = SubElement(node_root, 'filename')
         node_filename.text = img_name

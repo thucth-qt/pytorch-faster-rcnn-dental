@@ -1,0 +1,133 @@
+<annotation>
+  <folder>VOC2007</folder>
+  <filename>Frame_807.JPG</filename>
+  <source>
+    <database>Coco database</database>
+  </source>
+  <size>
+    <width>1920</width>
+    <height>1080</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>Central Incisor</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>1467</xmin>
+      <ymin>287</ymin>
+      <xmax>1797</xmax>
+      <ymax>794</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>Central Incisor</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>1145</xmin>
+      <ymin>296</ymin>
+      <xmax>1467</xmax>
+      <ymax>799</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>Lateral Incisor</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>1800</xmin>
+      <ymin>258</ymin>
+      <xmax>1920</xmax>
+      <ymax>790</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>Lateral Incisor</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>869</xmin>
+      <ymin>305</ymin>
+      <xmax>1147</xmax>
+      <ymax>869</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>Canine</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>604</xmin>
+      <ymin>278</ymin>
+      <xmax>869</xmax>
+      <ymax>921</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>1st Premolar</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>421</xmin>
+      <ymin>303</ymin>
+      <xmax>633</xmax>
+      <ymax>774</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>2nd Premolar</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>301</xmin>
+      <ymin>344</ymin>
+      <xmax>466</xmax>
+      <ymax>692</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>1st Molar</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>135</xmin>
+      <ymin>332</ymin>
+      <xmax>335</xmax>
+      <ymax>663</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>2nd Molar</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>156</xmin>
+      <ymin>174</ymin>
+      <xmax>443</xmax>
+      <ymax>332</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>3rd Molar</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>203</xmin>
+      <ymin>99</ymin>
+      <xmax>389</xmax>
+      <ymax>224</ymax>
+    </bndbox>
+  </object>
+</annotation>

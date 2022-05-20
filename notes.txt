@@ -1,5 +1,6 @@
-python3 voc2coco.py \
---ann_dir ../dental/outputs \
+python voc2coco.py \
+--ann_dir ../dental/voc_xml \
+--ann_ids ../dental/splits/valset.txt \
 --labels ../dental/classes.txt \
---output ../dental/dental_cocoformat.json \
---ext xml
+--output ../dental/annotations/instances_val2017.json \
+ --ext xml
