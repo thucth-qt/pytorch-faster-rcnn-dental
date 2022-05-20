@@ -57,7 +57,7 @@ class Config:
     lr_gamma = 0.33
     lr_dec_step_size = 100
 
-    batch_size = 6
+    batch_size = 10
 
     num_class = 8 + 1  # foreground + 1 background
     data_root_dir = "/content/pytorch-faster-rcnn-dental/dental"

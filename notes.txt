@@ -4,3 +4,8 @@ python voc2coco.py \
 --labels ../dental/classes.txt \
 --output ../dental/annotations/instances_val2017.json \
  --ext xml
+
+
+
+
+CUDA_VISIBLE_DEVICES=0 python train.py
