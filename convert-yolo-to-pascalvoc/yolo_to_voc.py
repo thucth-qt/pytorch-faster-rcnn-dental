@@ -28,8 +28,7 @@ def unconvert(class_id, width, height, x, y, w, h):
 
 
 ## path root folder
-ROOT = '../../dental'
-
+ROOT = '../dental'
 
 ## converts coco into xml 
 def xml_transform(root, classes):  

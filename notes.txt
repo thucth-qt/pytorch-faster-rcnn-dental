@@ -1,5 +1,5 @@
 python3 voc2coco.py \
---ann_dir /content/dental/outputs \
---labels /content/dental/classes.txt \
---output /content/dental/dental_cocoformat.json \
+--ann_dir ../dental/outputs \
+--labels ../dental/classes.txt \
+--output ../dental/dental_cocoformat.json \
 --ext xml

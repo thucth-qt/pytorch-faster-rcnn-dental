@@ -42,11 +42,11 @@ class Config:
     box_positive_fraction = 0.25
     bbox_reg_weights = None
 
-    device_name = 'cuda:7'
+    device_name = 'cuda:0'
 
     resume = ''  # pretrained_weights
     start_epoch = 0  # start epoch
-    num_epochs = 5000  # train epochs
+    num_epochs = 500  # train epochs
 
     # learning rate parameters
     lr = 5e-3
@@ -59,9 +59,8 @@ class Config:
 
     batch_size = 6
 
-    num_class = 80 + 1  # foreground + 1 background
-    data_root_dir = " "
-    model_save_dir = " "
-
+    num_class = 8 + 1  # foreground + 1 background
+    data_root_dir = "/content/pytorch-faster-rcnn-dental/dental"
+    model_save_dir = "./saved_models"
 
 cfg = Config()
